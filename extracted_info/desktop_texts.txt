@@ -1,0 +1,217 @@
+NAME: Read our latest fuel price report 
+TEXT:
+Read our latest fuel price report 
+========================================
+NAME: NEWS
+TEXT:
+NEWS
+========================================
+NAME: Read the report
+TEXT:
+Read the report
+========================================
+NAME: Read our latest EV recharge report 
+TEXT:
+Read our latest EV recharge report 
+========================================
+NAME: NEWS
+TEXT:
+NEWS
+========================================
+NAME: Read the report
+TEXT:
+Read the report
+========================================
+NAME: SL: <First name>, read our motoring manifesto
+PH: Plus get £30 every time one of your friends joins us.
+
+TEXT:
+SL: <First name>, read our motoring manifesto
+PH: Plus get £30 every time one of your friends joins us.
+
+========================================
+NAME: Hello <First name>,
+At The AA, nothing matters more to us than motorists. So we’ve spoken to a panel of members like you about what’s important to them. And we’ve brought that insight together in a manifesto for government, journalists and civil servants.
+
+TEXT:
+Hello <First name>,
+At The AA, nothing matters more to us than motorists. So we’ve spoken to a panel of members like you about what’s important to them. And we’ve brought that insight together in a manifesto for government, journalists and civil servants.
+We’re calling on all political parties to listen to the needs of drivers, and take action on our recommendations to help shape a better road ahead for all motorists.
+
+========================================
+NAME: Our manifesto highlights
+TEXT:
+Our manifesto highlights
+========================================
+NAME: Smart Benefits
+TEXT:
+Smart Benefits
+========================================
+NAME: Add us to your safe senders list
+TEXT:
+Add us to your safe senders list
+========================================
+NAME: All Smart Benefits 
+TEXT:
+All Smart Benefits 
+========================================
+NAME: CREATING 
+CONFIDENCE 
+FOR DRIVERS
+TEXT:
+CREATING 
+CONFIDENCE 
+FOR DRIVERS
+========================================
+NAME: A motoring manifesto
+from The AA
+TEXT:
+A motoring manifesto
+from The AA
+========================================
+NAME: For many people, driving isn’t a luxury – it’s a vital means of mobility. We believe that retaining a freeze on fuel duty, increasing fuel price transparency, and reducing insurance premium tax can help to keep costs low.
+TEXT:
+For many people, driving isn’t a luxury – it’s a vital means of mobility. We believe that retaining a freeze on fuel duty, increasing fuel price transparency, and reducing insurance premium tax can help to keep costs low.
+========================================
+NAME: Costs and affordability
+TEXT:
+Costs and affordability
+========================================
+NAME: SUPPORTING DRIVERS
+TEXT:
+SUPPORTING DRIVERS
+========================================
+NAME: On average, five people a day are killed on our roads and 82 are seriously injured. We’ve looked at 9 ways to reduce this – including reintroducing road safety targets, maintaining driver training and increasing road traffic officers – because road death n
+TEXT:
+On average, five people a day are killed on our roads and 82 are seriously injured. We’ve looked at 9 ways to reduce this – including reintroducing road safety targets, maintaining driver training and increasing road traffic officers – because road death needs to be higher on the political agenda.
+========================================
+NAME: Saving lives
+TEXT:
+Saving lives
+========================================
+NAME: Read the full manifesto for a comprehensive look at all the topics on our agenda – including driving a sustainable future and how we’re strengthening the industry.
+TEXT:
+Read the full manifesto for a comprehensive look at all the topics on our agenda – including driving a sustainable future and how we’re strengthening the industry.
+========================================
+NAME: SAFER ROADS
+TEXT:
+SAFER ROADS
+========================================
+NAME: From potholes and flooding to smart motorways, the state of the roads was by far the most important issue for our members. We recommend scrapping smart motorways and increasing long-term funding of local road maintenance for permanent repairs.
+TEXT:
+From potholes and flooding to smart motorways, the state of the roads was by far the most important issue for our members. We recommend scrapping smart motorways and increasing long-term funding of local road maintenance for permanent repairs.
+========================================
+NAME: Traffic management and infrastructure
+TEXT:
+Traffic management and infrastructure
+========================================
+NAME: SMOOTHER JOURNEYS
+TEXT:
+SMOOTHER JOURNEYS
+========================================
+NAME: With a larger member base, we could have a bigger influence on government decisions. Invite your friends to take out breakdown cover with us and when they join, you’ll both get a £30 M&S or  Amazon.co.uk gift card1. Offer ends 23 May 2024.
+TEXT:
+With a larger member base, we could have a bigger influence on government decisions. Invite your friends to take out breakdown cover with us and when they join, you’ll both get a £30 M&S or  Amazon.co.uk gift card1. Offer ends 23 May 2024.
+========================================
+NAME: £30 for you, £30 for your friends.
+TEXT:
+£30 for you, £30 for your friends.
+========================================
+NAME: INVITE A FRIEND
+TEXT:
+INVITE A FRIEND
+========================================
+NAME: Make holiday travel hassle-free with Holiday Extras and save 15% on airport transfers. From shuttles to private coaches, they have a transfer for every journey3.
+TEXT:
+Make holiday travel hassle-free with Holiday Extras and save 15% on airport transfers. From shuttles to private coaches, they have a transfer for every journey3.
+========================================
+NAME: Get the offer 
+TEXT:
+Get the offer 
+========================================
+NAME: Save 15% on airport transfers
+TEXT:
+Save 15% on airport transfers
+========================================
+NAME: SPECIAL OFFER
+TEXT:
+SPECIAL OFFER
+========================================
+NAME: Step into the home of feel-good thrills at Thorpe Park2 and prepare yourself for action as they launch the UK’s tallest and fastest rollercoaster – Hyperia, opening 24 May.
+TEXT:
+Step into the home of feel-good thrills at Thorpe Park2 and prepare yourself for action as they launch the UK’s tallest and fastest rollercoaster – Hyperia, opening 24 May.
+========================================
+NAME: Get the offer 
+TEXT:
+Get the offer 
+========================================
+NAME: Save on entry to Thorpe Park
+TEXT:
+Save on entry to Thorpe Park
+========================================
+NAME: SPECIAL OFFER
+TEXT:
+SPECIAL OFFER
+========================================
+NAME: Smoother journeys
+TEXT:
+Smoother journeys
+========================================
+NAME: Supporting drivers
+TEXT:
+Supporting drivers
+========================================
+NAME: Safer roads 
+TEXT:
+Safer roads 
+========================================
+NAME: Driving services for pretty much anything
+TEXT:
+Driving services for pretty much anything
+========================================
+NAME:  
+TEXT:
+ 
+========================================
+NAME:  
+TEXT:
+ 
+========================================
+NAME:    Breakdown               Insurance               Vehicle               Money               Offers
+TEXT:
+   Breakdown               Insurance               Vehicle               Money               Offers
+========================================
+NAME: 1Ts&Cs at theaa.com/breakdown-cover/invite-a-friend
+2Ts&Cs at theaa.com/smart-benefits/days-out-offers/thorpe-park
+3Ts&Cs at theaa.com/smart-benefits/travel-offers/holiday-extras
+#Rated excellent since December 2023.
+Automobile Association Insurance Servic
+TEXT:
+1Ts&Cs at theaa.com/breakdown-cover/invite-a-friend
+2Ts&Cs at theaa.com/smart-benefits/days-out-offers/thorpe-park
+3Ts&Cs at theaa.com/smart-benefits/travel-offers/holiday-extras
+#Rated excellent since December 2023.
+Automobile Association Insurance Services Limited is an insurance intermediary authorised and regulated by the Financial Conduct Authority. Registered office: Fanum House, Basing View, Basingstoke, Hampshire RG21 4EA. Registered in England and Wales. Number 2414212. For further information please visit theAA.com
+© Automobile Association Developments Ltd 2024
+
+========================================
+NAME: Unsubscribe
+TEXT:
+Unsubscribe
+========================================
+NAME: Contact us
+TEXT:
+Contact us
+========================================
+NAME: #
+TEXT:
+#
+========================================
+NAME: Download the manifesto 
+TEXT:
+Download the manifesto 
+========================================
+NAME: Get your link 
+TEXT:
+Get your link 
+========================================
