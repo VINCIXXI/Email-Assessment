@@ -137,6 +137,7 @@
       .header-title {
         font-size: 26px !important;
         line-height: 30px !important;
+        color: #00081c !important;
       }
 
       .header-image-container {
@@ -195,7 +196,6 @@
       }
 
       /* Typography */
-      h1,
       h2,
       h3,
       h4,
@@ -230,19 +230,27 @@
         background-color: #1a273a !important;
       }
 
+      .card-bg {
+        background-color: #1a273a !important;
+      }
+
       .badge-pill {
         border-color: #38bdf8 !important;
         color: #38bdf8 !important;
       }
 
       /* Keep brand yellow yellow, but make text on it dark */
-      .yellow-bg {
+      .yellow-bg,
+      .header-yellow-col {
         background-color: #ffd300 !important;
       }
 
       .yellow-bg td,
       .yellow-bg a,
-      .yellow-bg h2 {
+      .yellow-bg h2,
+      .yellow-bg h4,
+      .header-yellow-col h1,
+      .header-yellow-col p {
         color: #00081c !important;
       }
 
@@ -261,6 +269,14 @@
 
       .btn-black a {
         color: #00081c !important;
+      }
+
+      .btn-black-small {
+        background-color: #00081c !important;
+      }
+
+      .btn-black-small a {
+        color: #ffffff !important;
       }
 
       /* Social and Footer elements */
@@ -320,18 +336,26 @@
       background-color: #1a273a !important;
     }
 
+    [data-ogsc] .card-bg {
+      background-color: #1a273a !important;
+    }
+
     [data-ogsc] .badge-pill {
       border-color: #38bdf8 !important;
       color: #38bdf8 !important;
     }
 
-    [data-ogsc] .yellow-bg {
+    [data-ogsc] .yellow-bg,
+    [data-ogsc] .header-yellow-col {
       background-color: #ffd300 !important;
     }
 
     [data-ogsc] .yellow-bg td,
     [data-ogsc] .yellow-bg a,
-    [data-ogsc] .yellow-bg h2 {
+    [data-ogsc] .yellow-bg h2,
+    [data-ogsc] .yellow-bg h4,
+    [data-ogsc] .header-yellow-col h1,
+    [data-ogsc] .header-yellow-col p {
       color: #00081c !important;
     }
 
@@ -351,6 +375,14 @@
       color: #00081c !important;
     }
 
+    [data-ogsc] .btn-black-small {
+      background-color: #00081c !important;
+    }
+
+    [data-ogsc] .btn-black-small a {
+      color: #ffffff !important;
+    }
+
     [data-ogsc] .footer-bg {
       background-color: #080f1a !important;
     }
@@ -359,6 +391,133 @@
       background-color: #1e293b !important;
     }
   </style>
+
+    <!--[if !mso]>
+    Interactive Preview Styles
+    .preview-toggle-container {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      z-index: 99999;
+      font-family: 'Montserrat', Arial, sans-serif;
+    }
+
+    .preview-toggle-btn {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background-color: #00081c;
+      color: #ffd300;
+      border: 2px solid #ffd300;
+      border-radius: 30px;
+      padding: 12px 24px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: bold;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .preview-toggle-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 24px rgba(0,0,0,0.4);
+    }
+
+    /* Mirroring prefers-color-scheme styles with a class trigger for manual previewing */
+    .dark-mode-preview,
+    .dark-mode-preview .body-bg {
+      background-color: #0b1320 !important;
+    }
+
+    .dark-mode-preview .email-container {
+      background-color: #121d2f !important;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5) !important;
+    }
+
+    .dark-mode-preview .content-bg {
+      background-color: #121d2f !important;
+    }
+
+    .dark-mode-preview h1,
+    .dark-mode-preview h2,
+    .dark-mode-preview h3,
+    .dark-mode-preview h4,
+    .dark-mode-preview h5,
+    .dark-mode-preview h6,
+    .dark-mode-preview p,
+    .dark-mode-preview td,
+    .dark-mode-preview span {
+      color: #f1f5f9 !important;
+    }
+
+    .dark-mode-preview .text-muted {
+      color: #94a3b8 !important;
+    }
+
+    .dark-mode-preview a {
+      color: #38bdf8 !important;
+    }
+
+    .dark-mode-preview .footer-links a {
+      color: #f1f5f9 !important;
+    }
+
+    .dark-mode-preview .hello-section {
+      background-color: #121d2f !important;
+      border-bottom: 1px solid #1e293b !important;
+    }
+
+    .dark-mode-preview .manifesto-section {
+      background-color: #1a273a !important;
+    }
+
+    .dark-mode-preview .card-bg {
+      background-color: #1a273a !important;
+    }
+
+    .dark-mode-preview .badge-pill {
+      border-color: #38bdf8 !important;
+      color: #38bdf8 !important;
+    }
+
+    .dark-mode-preview .yellow-bg,
+    .dark-mode-preview .header-yellow-col {
+      background-color: #ffd300 !important;
+    }
+
+    .dark-mode-preview .yellow-bg td,
+    .dark-mode-preview .yellow-bg a,
+    .dark-mode-preview .yellow-bg h2,
+    .dark-mode-preview .yellow-bg h4,
+    .dark-mode-preview .header-yellow-col h1,
+    .dark-mode-preview .header-yellow-col p {
+      color: #00081c !important;
+    }
+
+    .dark-mode-preview .btn-yellow {
+      background-color: #ffd300 !important;
+    }
+
+    .dark-mode-preview .btn-yellow a {
+      color: #00081c !important;
+    }
+
+    .dark-mode-preview .btn-black {
+      background-color: #ffffff !important;
+    }
+
+    .dark-mode-preview .btn-black a {
+      color: #00081c !important;
+    }
+
+    .dark-mode-preview .footer-bg {
+      background-color: #080f1a !important;
+    }
+
+    .dark-mode-preview .social-circle {
+      background-color: #1e293b !important;
+    }
+    <!--<![endif]-->
 
   <!--[if mso]>
   <style type="text/css">
@@ -389,7 +548,7 @@
 
           <!-- TOP UTILITY ROW -->
           <tr>
-            <td class="pad-lr" align="center" valign="top" style="padding: 10px 30px; background-color: #ffffff;">
+            <td class="pad-lr content-bg" align="center" valign="top" style="padding: 10px 30px; background-color: #ffffff;">
               <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
                 <tr>
                   <td align="left" valign="top"
@@ -399,7 +558,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td align="center" valign="middle" 
+                  <td class="text-muted" align="center" valign="middle" 
                     style="font-family: 'Roboto', Arial, sans-serif; font-size: 11px; line-height: 16px;  padding-bottom: 10px">
                     <a href="#adlink" style="color: #64748b; font-weight: 300; text-decoration: underline;">Add us to
                       your safe senders list</a>
@@ -512,7 +671,7 @@
 
           <!-- THREE HIGHLIGHTS ICONS ROW -->
           <tr>
-            <td class="pad-lr" align="center" valign="top"
+            <td class="pad-lr content-bg" align="center" valign="top"
               style="padding: 0 40px 40px 40px; background-color: #ffffff; ">
               <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
                 <tr>
@@ -578,7 +737,7 @@
           <!-- Desktop: Text Left, Image Right | Mobile: Image Top, Text Bottom (using dir="rtl") -->
           <tr>
             <td align="center" valign="top" style="padding: 10px 40px;">
-              <table width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0" role="presentation"
+              <table width="100%" bgcolor="#ffffff" class="card-bg" cellpadding="0" cellspacing="0" border="0" role="presentation"
                 style="background-color: #ffffff; height: 100%; min-height: 100%;">
                 <tr>
                   <!-- Text Column (Left on desktop, Bottom on mobile) -->
@@ -588,7 +747,7 @@
                       style="width: 100%; height: 100%;">
                       <tr>
                         <td width="10" style="width: 10px; font-size: 1px; line-height: 1px;">&nbsp;</td>
-                        <td bgcolor="#ffffff" align="left" valign="middle"
+                        <td bgcolor="#ffffff" align="left" valign="middle" class="card-bg"
                           style="background-color: #ffffff; padding: 5px 15px;">
                           <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
                             <tr>
@@ -639,7 +798,7 @@
           <!-- Desktop: Image Left, Text Right | Mobile: Image Top, Text Bottom (standard source order) -->
           <tr>
             <td align="center" valign="top" style="padding: 10px 40px;">
-              <table width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0" role="presentation"
+              <table width="100%" bgcolor="#ffffff" cellpadding="0" class="card-bg" cellspacing="0" border="0" role="presentation"
                 style="background-color: #ffffff; height: 100%; min-height: 100%;">
                 <tr>
                   <!-- Image Column (Right on desktop, Top on mobile) -->
@@ -655,7 +814,7 @@
                     <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation"
                       style="width: 100%; height: 100%;">
                       <tr>
-                        <td bgcolor="#ffffff" align="left" valign="middle"
+                        <td bgcolor="#ffffff" align="left" valign="middle" class="card-bg"
                           style="background-color: #ffffff; padding: 5px 15px;">
                           <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
                             <tr>
@@ -700,7 +859,7 @@
           <!-- Desktop: Text Left, Image Right | Mobile: Image Top, Text Bottom (using dir="rtl") -->
           <tr>
             <td align="center" valign="top" style="padding: 10px 40px;">
-              <table width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0" role="presentation"
+              <table width="100%" bgcolor="#ffffff" cellpadding="0" class="card-bg" cellspacing="0" border="0" role="presentation"
                 style="background-color: #ffffff; height: 100%; min-height: 100%;">
                 <tr>
                   <!-- Text Column (Left on desktop, Bottom on mobile) -->
@@ -710,7 +869,7 @@
                       style="width: 100%; height: 100%;">
                       <tr>
                         <td width="10" style="width: 10px; font-size: 1px; line-height: 1px;">&nbsp;</td>
-                        <td bgcolor="#ffffff" align="left" valign="middle"
+                        <td bgcolor="#ffffff" align="left" class="card-bg" valign="middle"
                           style="background-color: #ffffff; padding: 5px 15px;">
                           <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
                             <tr>
@@ -759,7 +918,7 @@
 
           <!-- READ FULL MANIFESTO & DOWNLOAD CTA -->
           <tr>
-            <td class="pad-lr" align="center" valign="top"
+            <td class="pad-lr content-bg" align="center" valign="top" class="card-bg"
               style="padding: 30px 40px 0px 40px; background-color: #ffffff;">
               <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
                 <tr>
@@ -792,7 +951,7 @@
           <!-- Desktop: Image Left, Text Right | Mobile: Image Top, Text Bottom -->
           <tr>
             <td align="center" valign="top" style="padding: 40px;">
-              <table width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0" role="presentation"
+              <table width="100%" bgcolor="#ffffff" cellpadding="0" class="card-bg" cellspacing="0" border="0" role="presentation"
                 style="background-color: #ffffff; height: 100%; min-height: 100%;">
                 <tr>
                   <!-- Image Column (Right on desktop, Top on mobile) -->
@@ -808,7 +967,7 @@
                     <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation"
                       style="width: 100%; height: 100%;">
                       <tr>
-                        <td bgcolor="#ffffff" align="left" valign="middle"
+                        <td bgcolor="#ffffff" align="left" class="card-bg" valign="middle"
                           style="background-color: #ffffff; padding: 5px 15px;">
                           <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
                             <tr>
@@ -868,7 +1027,7 @@
 
           <!-- SMART BENEFITS SECTION -->
           <tr>
-            <td class="pad-lr" align="center" valign="top" bgcolor="#ffd300"
+            <td class="pad-lr yellow-bg" align="center" valign="top" bgcolor="#ffd300"
               style="padding: 15px 40px 20px 40px; background-color: #ffd300; ">
               <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
 
@@ -885,17 +1044,17 @@
                 <!-- Row 1: Thorpe Park -->
                 <tr>
                   <td align="center" valign="top" style="padding-bottom: 20px;">
-                    <table width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0" role="presentation"
+                    <table width="100%" bgcolor="#ffffff" cellpadding="0" class="card-bg" cellspacing="0" border="0" role="presentation"
                       style="background-color: #ffffff; height: 100%; min-height: 100%;">
                       <tr>
                         <!-- Text Column (Left on desktop, Bottom on mobile) -->
-                        <td class="stack-col-card width=" 50%" dir="ltr" align="left" valign="middle" bgcolor="#ffffff"
+                        <td class="stack-col-card" width="50%" dir="ltr" align="left" valign="middle" bgcolor="#ffffff"
                           style="width: 50%; padding: 0; background-image: url('images/header_bg_pattern.jpg'); background-size: cover; background-position: left center; background-repeat: no-repeat; vertical-align: middle;">
                           <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation"
                             style="width: 100%; height: 100%;">
                             <tr>
                               <td width="10" style="width: 10px; font-size: 1px; line-height: 1px;">&nbsp;</td>
-                              <td bgcolor="#ffffff" align="left" valign="middle"
+                              <td bgcolor="#ffffff" class="card-bg" align="left" valign="middle"
                                 style="background-color: #ffffff; padding: 20px 15px;">
                                 <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
                                   <tr>
@@ -967,7 +1126,7 @@
                 <!-- Row 2: Airport Transfers -->
                 <tr>
                   <td align="center" valign="top" style="padding-bottom: 25px;">
-                    <table width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0" role="presentation"
+                    <table width="100%" bgcolor="#ffffff" class="card-bg" cellpadding="0" cellspacing="0" border="0" role="presentation"
                       style="background-color: #ffffff; height: 100%; min-height: 100%;">
                       <tr>
                         <!-- Image Column (Right on desktop, Top on mobile) -->
@@ -978,13 +1137,13 @@
                             alt="Airport transfers">
                         </td>
                         <!-- Text Column (Left on desktop, Bottom on mobile) -->
-                        <td class="stack-col-card width=" 50%" dir="rtl" align="left" valign="middle" bgcolor="#ffffff"
+                        <td class="stack-col-card" width="50%" dir="rtl" align="left" valign="middle" bgcolor="#ffffff"
                           style="width: 50%; padding: 0; vertical-align: middle;">
                           <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation"
                             style="width: 100%; height: 100%;">
                             <tr>
                               <td width="10" style="width: 10px; font-size: 1px; line-height: 1px;">&nbsp;</td>
-                              <td bgcolor="#ffffff" align="left" valign="middle"
+                              <td bgcolor="#ffffff" class="card-bg" align="left" valign="middle"
                                 style="background-color: #ffffff; padding: 20px 15px;">
                                 <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
                                   <tr>
@@ -1069,7 +1228,7 @@
 
           <!-- DOUBLE CARD MODULE (FUEL & EV REPORTS) -->
           <tr>
-            <td class="pad-lr pad-tb" align="center" valign="top" style="padding: 20px 40px; background-color: #ffffff;">
+            <td class="pad-lr pad-tb content-bg"" align="center"  valign="top" style="padding: 20px 40px; background-color: #ffffff;">
               <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
                 <tr>
                   <!-- CARD 1: Fuel Price Report -->
@@ -1077,7 +1236,7 @@
                     <table width="100%" bgcolor="#ffd300" cellpadding="0" cellspacing="0" border="0" role="presentation"
                       style="background-color: #ffd300;">
                       <tr>
-                        <td class="inner-pad" align="left" valign="top" style="padding: 25px 20px;">
+                        <td class="inner-pad yellow-bg" align="left" valign="top" style="padding: 25px 20px;">
                           <!-- Badge -->
                           <table cellpadding="0" cellspacing="0" border="0" role="presentation"
                             style="margin-bottom: 12px;">
@@ -1097,7 +1256,7 @@
                           <!-- Button -->
                           <table cellpadding="0" cellspacing="0" border="0" role="presentation">
                             <tr>
-                              <td align="center" valign="middle" bgcolor="#00081c"
+                              <td class="btn-black" align="center" valign="middle" bgcolor="#00081c"
                                 style="border-radius: 18px; padding: 8px 18px;">
                                 <a href="#adlink" target="_blank"
                                   style="font-family: 'Montserrat', Arial, sans-serif; font-size: 12px; font-weight: bold; color: #ffffff; text-decoration: none; display: inline-block;">Read
@@ -1115,7 +1274,7 @@
                     <table width="100%" bgcolor="#ffd300" cellpadding="0" cellspacing="0" border="0" role="presentation"
                       style="background-color: #ffd300;">
                       <tr>
-                        <td class="inner-pad" align="left" valign="top" style="padding: 25px 20px;">
+                        <td class="inner-pad yellow-bg" align="left" valign="top" style="padding: 25px 20px;">
                           <!-- Badge -->
                           <table cellpadding="0" cellspacing="0" border="0" role="presentation"
                             style="margin-bottom: 12px;">
@@ -1135,7 +1294,7 @@
                           <!-- Button -->
                           <table cellpadding="0" cellspacing="0" border="0" role="presentation">
                             <tr>
-                              <td align="center" valign="middle" bgcolor="#00081c"
+                              <td class="btn-black" align="center" valign="middle" bgcolor="#00081c"
                                 style="border-radius: 18px; padding: 8px 18px;">
                                 <a href="#adlink" target="_blank"
                                   style="font-family: 'Montserrat', Arial, sans-serif; font-size: 12px; font-weight: bold; color: #ffffff; text-decoration: none; display: inline-block;">Read
@@ -1154,7 +1313,7 @@
 
           <!-- FOOTER LINKS ROW -->
           <tr>
-            <td class="pad-lr" align="center" valign="top"
+            <td class="pad-lr content-bg" align="center" valign="top"
               style="padding: 10px 40px 25px 40px; background-color: #ffffff;">
               <div class="header-divider" style="height: 2px; background-color: #ffd300; margin: 0 0 15px 0; font-size: 1px; line-height: 1px;">&nbsp;</div>
               <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
@@ -1313,7 +1472,37 @@
       </td>
     </tr>
   </table>
-
+<!--[if !mso]><!-->
+  <div class="preview-toggle-container">
+    <button class="preview-toggle-btn" onclick="toggleDarkMode()" id="mode-toggle-btn">
+      <span id="toggle-icon">🌙</span> <span id="toggle-text">Preview Dark Mode</span>
+    </button>
+  </div>
+  <script>
+    function toggleDarkMode() {
+      var body = document.body;
+      var btn = document.getElementById('mode-toggle-btn');
+      var icon = document.getElementById('toggle-icon');
+      var text = document.getElementById('toggle-text');
+      
+      if (body.classList.contains('dark-mode-preview')) {
+        body.classList.remove('dark-mode-preview');
+        icon.innerText = '🌙';
+        text.innerText = 'Preview Dark Mode';
+        btn.style.backgroundColor = '#00081c';
+        btn.style.color = '#ffd300';
+        btn.style.borderColor = '#ffd300';
+      } else {
+        body.classList.add('dark-mode-preview');
+        icon.innerText = '☀️';
+        text.innerText = 'Preview Light Mode';
+        btn.style.backgroundColor = '#ffd300';
+        btn.style.color = '#00081c';
+        btn.style.borderColor = '#00081c';
+      }
+    }
+  </script>
+  <!--<![endif]-->
 </body>
 
 </html>
