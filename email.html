@@ -392,8 +392,9 @@
     }
   </style>
 
-    <!--[if !mso]>
-    Interactive Preview Styles
+    <!--[if !mso]><!-->
+  <style type="text/css">
+    /* Interactive Preview Styles */
     .preview-toggle-container {
       position: fixed;
       bottom: 24px;
@@ -517,6 +518,7 @@
     .dark-mode-preview .social-circle {
       background-color: #1e293b !important;
     }
+    </style>
     <!--<![endif]-->
 
   <!--[if mso]>
@@ -1472,37 +1474,6 @@
       </td>
     </tr>
   </table>
-<!--[if !mso]><!-->
-  <div class="preview-toggle-container">
-    <button class="preview-toggle-btn" onclick="toggleDarkMode()" id="mode-toggle-btn">
-      <span id="toggle-icon">🌙</span> <span id="toggle-text">Preview Dark Mode</span>
-    </button>
-  </div>
-  <script>
-    function toggleDarkMode() {
-      var body = document.body;
-      var btn = document.getElementById('mode-toggle-btn');
-      var icon = document.getElementById('toggle-icon');
-      var text = document.getElementById('toggle-text');
-      
-      if (body.classList.contains('dark-mode-preview')) {
-        body.classList.remove('dark-mode-preview');
-        icon.innerText = '🌙';
-        text.innerText = 'Preview Dark Mode';
-        btn.style.backgroundColor = '#00081c';
-        btn.style.color = '#ffd300';
-        btn.style.borderColor = '#ffd300';
-      } else {
-        body.classList.add('dark-mode-preview');
-        icon.innerText = '☀️';
-        text.innerText = 'Preview Light Mode';
-        btn.style.backgroundColor = '#ffd300';
-        btn.style.color = '#00081c';
-        btn.style.borderColor = '#00081c';
-      }
-    }
-  </script>
-  <!--<![endif]-->
 </body>
 
 </html>
