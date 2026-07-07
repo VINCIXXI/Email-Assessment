@@ -10,6 +10,18 @@
   <meta name="supported-color-schemes" content="light dark">
   <title>Email Test</title>
 
+  <!--[if mso]>
+  <noscript>
+  <xml>
+  <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+  <o:PixelsPerInch>96</o:PixelsPerInch>
+  </o:OfficeDocumentSettings>
+  </xml>
+  </noscript>
+  <![endif]-->
+
+  <!-- Google Fonts CDN -->
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Roboto:ital,wght@0,200;0,300;0,400;0,700;0,900;1,200;1,300;1,400;1,700;1,900&display=swap"
     rel="stylesheet">
@@ -222,7 +234,7 @@
         background-color: #1a273a !important;
       }
 
-      .badge-pill-full {
+      .badge-pill {
         border-color: #38bdf8 !important;
         color: #38bdf8 !important;
       }
@@ -328,7 +340,7 @@
       background-color: #1a273a !important;
     }
 
-    [data-ogsc] .badge-pill-full {
+    [data-ogsc] .badge-pill {
       border-color: #38bdf8 !important;
       color: #38bdf8 !important;
     }
@@ -380,6 +392,7 @@
     }
   </style>
 
+  <!--[if !mso]><!-->
   <style type="text/css">
     /* Interactive Preview Styles */
     .preview-toggle-container {
@@ -463,7 +476,7 @@
       background-color: #1a273a !important;
     }
 
-    .dark-mode-preview .badge-pill-full {
+    .dark-mode-preview .badge-pill {
       border-color: #38bdf8 !important;
       color: #38bdf8 !important;
     }
@@ -506,11 +519,21 @@
       background-color: #1e293b !important;
     }
   </style>
-  </head>
+  <!--<![endif]-->
+
+  <!--[if mso]>
+  <style type="text/css">
+  body, table, td, p, a, h1, h2, h3, h4, h5, h6, span {
+  font-family: Arial, Helvetica, sans-serif !important;
+  }
+  </style>
+  <![endif]-->
+</head>
 
 <body class="body-bg"
   style="margin: 0; padding: 0 !important; mso-line-height-rule: exactly; background-color: #f4f6f8;">
 
+  <!-- Preheader -->
   <div
     style="display:none; max-height:0px; max-width:0px; opacity:0; overflow:hidden; mso-hide:all; font-size:1px; color:#ffffff; line-height:1px;">
     SL: &lt;First name&gt;, read our motoring manifesto | PH: Plus get £30 every time one of your friends joins us.
@@ -521,9 +544,11 @@
     <tr>
       <td align="center" valign="top">
 
+        <!-- Email Outer Wrapper (650px limit) -->
         <table class="email-container" width="650" cellpadding="0" cellspacing="0" border="0" role="presentation"
           style="width: 650px; margin: 0 auto; background-color: #ffffff; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
 
+          <!-- TOP UTILITY ROW -->
           <tr>
             <td class="pad-lr content-bg" align="center" valign="top" style="padding: 10px 30px; background-color: #ffffff;">
               <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
@@ -536,7 +561,7 @@
                 </tr>
                 <tr>
                   <td class="text-muted" align="center" valign="middle" 
-                    style="font-family: 'Roboto', Arial, sans-serif; font-size: 11px; line-height: 16px;  padding-bottom: 10px">
+                    style="font-family: 'Roboto', Arial, sans-serif; font-size: 11px; line-height: 16px; padding-bottom: 10px">
                     <a href="#adlink" style="color: #64748b; font-weight: 300; text-decoration: underline;">Add us to
                       your safe senders list</a>
                   </td>
@@ -545,58 +570,76 @@
             </td>
           </tr>
 
+          <!-- HEADER SECTION -->
           <tr>
             <td class="header-banner" align="left" valign="top" bgcolor="#ffd300"
-                style="padding: 0; background-image: url('images/header_bg_pattern.jpg'); background-position: left; background-repeat: no-repeat;">
-                <div>
-                    <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation"
-                        style="width: 100%; table-layout: fixed;">
+              style="padding: 0; background-image: url('images/header_bg_pattern.jpg'); background-position: left; background-repeat: no-repeat;">
+              <!--[if gte mso 9]>
+              <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:650px; height:340px;">
+              <v:fill type="tile" src="images/header_bg_pattern.jpg" color="#ffd300" />
+              <v:textbox inset="0,0,0,0">
+              <![endif]-->
+              <div>
+                <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation"
+                  style="width: 100%; table-layout: fixed;">
+                  <tr>
+                    <!-- LEFT SLIVER -->
+                    <!--[if !mso]><!-->
+                    <td class="mob-no-pattern" width="20" style="width: 20px; font-size: 1px; line-height: 1px;">&nbsp;
+                    </td>
+                    <!--<![endif]-->
+
+                    <!-- LEFT COLUMN: Logo & Titles -->
+                    <td class="stack-col header-yellow-col" width="340" bgcolor="#ffd300" valign="top"
+                      style="width: 340px; background-color: #ffd300; padding: 30px 40px 30px 40px; position: relative;">
+                      <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
                         <tr>
-                            <td class="mob-no-pattern" width="20" style="width: 20px; font-size: 1px; line-height: 1px;">&nbsp;
-                            </td>
-                            <td class="stack-col header-yellow-col" width="340" bgcolor="#ffd300" valign="top"
-                                style="width: 340px; background-color: #ffd300; padding: 30px 40px 30px 40px; position: relative;">
-                                <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
-                                    <tr>
-                                        <td class="header-logo-container" align="left" valign="top">
-                                            <img class="header-logo" src="images/header_logo.png" width="169" height="129"
-                                                style="width: 169px; height: auto; display: block; border: 0;"
-                                                alt="AA News & Offers">
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="header-title-container" align="left" valign="top" style="padding-top: 25px;">
-                                            <h1 class="header-title"
-                                                style="margin: 0; font-family: 'Montserrat', Arial, sans-serif; font-size: 32px; font-weight: 800; line-height: 36px; color: #00081c; text-transform: uppercase; letter-spacing: -0.5px;">
-                                                CREATING<br>
-                                                CONFIDENCE<br>
-                                                FOR DRIVERS
-                                            </h1>
-                                            <p
-                                                style="margin: 10px 0 0 0; font-family: 'Roboto', Arial, sans-serif; font-size: 18px; font-weight: 300; line-height: 22px; color: #00081c;">
-                                                A motoring manifesto<br>from The AA
-                                            </p>
-                                        </td>
-                                    </tr>
-                                </table>
-
-                                <div class="header-triangle" 
-                                style="position: absolute; bottom: -20px; left: 57%; width: 0px; height: 0; border-left: 60px solid transparent; border-right: 60px solid transparent; border-top: 25px solid #ffd300; z-index: 10;">
-                                </div>
-                            </td>
-
-                            <td class="stack-col header-image-container" width="auto" align="center" valign="middle"
-                                style="width: 260px; padding: 30px 20px 30px 10px; position: relative; left: -100px; z-index: 5;">
-                                <img src="images/hero_couple.jpg" width="260" height="173"
-                                    style="width: 260px; height: auto; display: block; border: 0; border-radius: 12px;"
-                                    alt="Couple driving a car">
-                            </td>
+                          <td class="header-logo-container" align="left" valign="top">
+                            <img class="header-logo" src="images/header_logo.png" width="169" height="129"
+                              style="width: 169px; height: auto; display: block; border: 0;"
+                              alt="AA News & Offers">
+                          </td>
                         </tr>
-                    </table>
-                </div>
-                </td>
+                        <tr>
+                          <td class="header-title-container" align="left" valign="top" style="padding-top: 25px;">
+                            <h1 class="header-title"
+                              style="margin: 0; font-family: 'Montserrat', Arial, sans-serif; font-size: 32px; font-weight: 800; line-height: 36px; color: #00081c; text-transform: uppercase; letter-spacing: -0.5px;">
+                              CREATING<br>
+                              CONFIDENCE<br>
+                              FOR DRIVERS
+                            </h1>
+                            <p
+                              style="margin: 10px 0 0 0; font-family: 'Roboto', Arial, sans-serif; font-size: 18px; font-weight: 300; line-height: 22px; color: #00081c;">
+                              A motoring manifesto<br>from The AA
+                            </p>
+                          </td>
+                        </tr>
+                      </table>
+
+                      <!-- Downward pointing triangle -->
+                      <div class="header-triangle" 
+                        style="position: absolute; bottom: -20px; left: 57%; width: 0px; height: 0; border-left: 60px solid transparent; border-right: 60px solid transparent; border-top: 25px solid #ffd300; z-index: 10;">
+                      </div>
+                    </td>
+
+                    <!-- RIGHT COLUMN: Hero Photo -->
+                    <td class="stack-col header-image-container" width="auto" align="center" valign="middle"
+                      style="width: 260px; padding: 30px 20px 30px 10px; position: relative; left: -100px; z-index: 5;">
+                      <img src="images/hero_couple.jpg" width="260" height="173"
+                        style="width: 260px; height: 260px; display: block; border: 0; border-radius: 12px; object-fit: cover; "
+                        alt="Couple driving a car">
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <!--[if gte mso 9]>
+              </v:textbox>
+              </v:rect>
+              <![endif]-->
+            </td>
           </tr>
 
+          <!-- HELLO INTRO SECTION -->
           <tr>
             <td class="pad-lr hello-section" align="left" valign="top"
               style="padding: 40px 40px 30px 40px; background-color: #ffffff;">
@@ -616,6 +659,7 @@
                       take action on our recommendations to help shape a better road ahead for all motorists.
                     </p>
 
+                    <!-- Title: Our manifesto highlights -->
                     <h2 class="text-center-mobile"
                       style="margin: 0 0 25px 0; font-family: 'Montserrat', Arial, sans-serif; font-size: 16px; font-weight: 900; font-style: italic; color: #00081c;">
                       Our manifesto highlights
@@ -627,11 +671,13 @@
             </td>
           </tr>
 
+          <!-- THREE HIGHLIGHTS ICONS ROW -->
           <tr>
             <td class="pad-lr content-bg" align="center" valign="top"
               style="padding: 0 40px 40px 40px; background-color: #ffffff; ">
               <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
                 <tr>
+                  <!-- Icon 1: Supporting drivers -->
                   <td class="stack-col-3" width="33.3%" align="center" valign="top">
                     <table cellpadding="0" cellspacing="0" border="0" role="presentation">
                       <tr>
@@ -649,6 +695,7 @@
                     </table>
                   </td>
 
+                  <!-- Icon 2: Smooth transitions -->
                   <td class="stack-col-3" width="33.3%" align="center" valign="top">
                     <table cellpadding="0" cellspacing="0" border="0" role="presentation">
                       <tr>
@@ -666,6 +713,7 @@
                     </table>
                   </td>
 
+                  <!-- Icon 3: Safe roads -->
                   <td class="stack-col-3" width="33.3%" align="center" valign="top">
                     <table cellpadding="0" cellspacing="0" border="0" role="presentation">
                       <tr>
@@ -687,48 +735,59 @@
             </td>
           </tr>
 
+          <!-- CORE HIGHLIGHT 1: Costs and Affordability -->
           <tr>
             <td align="center" valign="top" style="padding: 10px 40px;">
               <table width="100%" bgcolor="#ffffff" class="card-bg" cellpadding="0" cellspacing="0" border="0" role="presentation"
-                style="background-color: #ffffff;">
+                style="background-color: #ffffff; height: 100%; min-height: 100%;">
                 <tr>
+                  <!-- Text Column -->
                   <td class="stack-col-card" width="50%" align="left" valign="middle" bgcolor="#ffffff"
                     style="width: 50%; padding: 0; background-image: url('images/header_bg_pattern.jpg'); background-size: cover; background-position: left center; background-repeat: no-repeat; vertical-align: middle;">
-                    <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width: 100%;">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation"
+                      style="width: 100%; height: 100%;">
                       <tr>
                         <td width="10" style="width: 10px; font-size: 1px; line-height: 1px;">&nbsp;</td>
-                        <td bgcolor="#ffffff" align="left" valign="middle" class="card-bg" style="background-color: #ffffff; padding: 5px 15px;">
+                        <td bgcolor="#ffffff" align="left" valign="middle" class="card-bg"
+                          style="background-color: #ffffff; padding: 5px 15px;">
                           <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
                             <tr>
-                              <td align="left" valign="top" style="padding-bottom: 8px;">
-                                <table cellpadding="0" cellspacing="0" border="0" role="presentation" class="badge-container">
+                              <td align="left" valign="top" style="padding-bottom: 5px;">
+                                <!-- Pill Badge -->
+                                <table cellpadding="0" cellspacing="0" border="0" role="presentation">
                                   <tr>
-                                    <td class="badge-pill-full" align="center" valign="middle" style="border: 1.5px solid #00081c; padding: 2px 14px; border-radius: 50px; font-family: 'Montserrat', Arial, sans-serif; font-size: 10px; font-weight: bold; letter-spacing: 0.5px; color: #00081c; text-transform: uppercase; white-space: nowrap; line-height: 12px;">
-                                      SUPPORTING DRIVERS
+                                    <td align="left" valign="top">
+                                      <span class="badge-pill"
+                                        style="border: 1.5px solid #00081c; border-radius: 50px; -webkit-border-radius: 50px; -moz-border-radius: 50px; padding: 2px 10px; font-family: 'Montserrat', Arial, sans-serif; font-size: 10px; font-weight: bold; color: #00081c; letter-spacing: 0.5px; text-transform: uppercase; display: inline-block; line-height: 12px; mso-line-height-rule: exactly;">
+                                        SUPPORTING DRIVERS
+                                      </span>
                                     </td>
-                                    </tr>
+                                  </tr>
                                 </table>
                               </td>
                             </tr>
                             <tr>
                               <td align="left" valign="top" style="padding-bottom: 12px;">
-                                <h3 style="margin: 0 0 10px 0; font-family: 'Montserrat', Arial, sans-serif; font-size: 16px; font-weight: 900; color: #00081c; line-height: 22px;">Costs and affordability</h3>
+                                <h3
+                                  style="margin: 0 0 10px 0; font-family: 'Montserrat', Arial, sans-serif; font-size: 16px; font-weight: 900; color: #00081c; line-height: 22px;">Costs and affordability</h3>
                               </td>
                             </tr>
                             <tr>
                               <td align="left" valign="top" style="padding-bottom: 0px;">
-                                <p style="margin: 0; font-family: 'Roboto', Arial, sans-serif; font-size: 14px; line-height: 20px; color: #00081c; font-weight: 300;"> For many people, driving isn’t a luxury – it’s a vital means of mobility. We believe that retaining a freeze on fuel duty, increasing fuel price transparency, and reducing insurance premium tax can help to keep costs low.
+                                <p
+                                  style="margin: 0; font-family: 'Roboto', Arial, sans-serif; font-size: 14px; line-height: 20px; color: #00081c; font-weight: 300;"> For many people, driving isn’t a luxury – it’s a vital means of mobility. We believe that retaining a freeze on fuel duty, increasing fuel price transparency, and reducing insurance premium tax can help to keep costs low.
                                 </p>
                               </td>
-                            </tr>
                           </table>
                         </td>
                       </tr>
                     </table>
                   </td>
-                  <td class="stack-col-card" width="50%" align="center" valign="middle" style="padding: 0;">
-                    <img src="images/supporting_drivers_costs.jpg" width="285" height="158"
-                      style="width: 100%; max-width: 285px; height: auto; display: block; border: 0;"
+                  <!-- Image Column with 100% height fix -->
+                  <td class="stack-col-card" width="50%" align="center" valign="middle"
+                    style="padding: 0; height: 100%;">
+                    <img src="images/supporting_drivers_costs.jpg" width="100%" height="100%"
+                      style="width: 100%; height: 100% !important; min-height: 100%; object-fit: cover; display: block; border: 0;"
                       alt="Costs and affordability">
                   </td>
                 </tr>
@@ -736,44 +795,55 @@
             </td>
           </tr>
 
+          <!-- CORE HIGHLIGHT 2: Traffic Management -->
           <tr>
             <td align="center" valign="top" style="padding: 10px 40px;">
               <table width="100%" bgcolor="#ffffff" cellpadding="0" class="card-bg" cellspacing="0" border="0" role="presentation"
-                style="background-color: #ffffff;">
+                style="background-color: #ffffff; height: 100%; min-height: 100%;">
                 <tr>
-                  <td class="stack-col-card" width="50%" align="center" valign="middle" style="padding: 0;">
-                    <img src="images/smooth_journeys_pothole.jpg" width="285" height="158"
-                      style="width: 100%; max-width: 285px; height: auto; display: block; border: 0;"
+                  <!-- Image Column with 100% height fix -->
+                  <td class="stack-col-card" width="50%" align="center" valign="middle"
+                    style="padding: 0; height: 100%;">
+                    <img src="images/smooth_journeys_pothole.jpg" width="100%" height="100%"
+                      style="width: 100%; height: 100% !important; min-height: 100%; object-fit: cover; display: block; border: 0;"
                       alt="Traffic management and infrastructure">
                   </td>
+                  <!-- Text Column -->
                   <td class="stack-col-card" width="50%" align="left" valign="middle" bgcolor="#ffffff"
                     style="width: 50%; padding: 0; background-image: url('images/header_bg_pattern.jpg'); background-size: cover; background-position: left center; background-repeat: no-repeat; vertical-align: middle;">
-                    <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width: 100%;">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation"
+                      style="width: 100%; height: 100%;">
                       <tr>
-                        <td bgcolor="#ffffff" align="left" valign="middle" class="card-bg" style="background-color: #ffffff; padding: 5px 15px;">
+                        <td bgcolor="#ffffff" align="left" valign="middle" class="card-bg"
+                          style="background-color: #ffffff; padding: 5px 15px;">
                           <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
                             <tr>
-                              <td align="left" valign="top" style="padding-bottom: 8px;">
-                                <table cellpadding="0" cellspacing="0" border="0" role="presentation" class="badge-container">
+                              <td align="left" valign="top" style="padding-bottom: 5px;">
+                                <!-- Pill Badge -->
+                                <table cellpadding="0" cellspacing="0" border="0" role="presentation">
                                   <tr>
-                                    <td class="badge-pill-full" align="center" valign="middle" style="border: 1.5px solid #00081c; padding: 2px 14px; border-radius: 50px; font-family: 'Montserrat', Arial, sans-serif; font-size: 10px; font-weight: bold; letter-spacing: 0.5px; color: #00081c; text-transform: uppercase; white-space: nowrap; line-height: 12px;">
-                                      SMOOTHER JOURNEY
+                                    <td align="left" valign="top">
+                                      <span class="badge-pill"
+                                        style="border: 1.5px solid #00081c; border-radius: 50px; -webkit-border-radius: 50px; -moz-border-radius: 50px; padding: 2px 10px; font-family: 'Montserrat', Arial, sans-serif; font-size: 10px; font-weight: bold; color: #00081c; letter-spacing: 0.5px; text-transform: uppercase; display: inline-block; line-height: 12px; mso-line-height-rule: exactly;">
+                                        SMOOTHER JOURNEY
+                                      </span>
                                     </td>
-                                    </tr>
+                                  </tr>
                                 </table>
                               </td>
                             </tr>
                             <tr>
                               <td align="left" valign="top" style="padding-bottom: 12px;">
-                                <h3 style="margin: 0 0 10px 0; font-family: 'Montserrat', Arial, sans-serif; font-size: 16px; font-weight: 900; color: #00081c; line-height: 22px;">Traffic management and infrastructure</h3>
+                                <h3
+                                  style="margin: 0 0 10px 0; font-family: 'Montserrat', Arial, sans-serif; font-size: 16px; font-weight: 900; color: #00081c; line-height: 22px;">Traffic management and infrastructure</h3>
                               </td>
                             </tr>
                             <tr>
                               <td align="left" valign="top" style="padding-bottom: 0px;">
-                                <p style="margin: 0; font-family: 'Roboto', Arial, sans-serif; font-size: 14px; line-height: 20px; color: #00081c; font-weight: 300;"> From potholes and flooding to smart motorways, the state of the roads was by far the most important issue for our members. We recommend scrapping smart motorways and increasing long-term funding of local road maintenance for permanent repairs.
+                                <p
+                                  style="margin: 0; font-family: 'Roboto', Arial, sans-serif; font-size: 14px; line-height: 20px; color: #00081c; font-weight: 300;"> From potholes and flooding to smart motorways, the state of the roads was by far the most important issue for our members. We recommend scrapping smart motorways and increasing long-term funding of local road maintenance for permanent repairs.
                                 </p>
                               </td>
-                            </tr>
                           </table>
                         </td>
                         <td width="10" style="width: 10px; font-size: 1px; line-height: 1px;">&nbsp;</td>
@@ -785,48 +855,59 @@
             </td>
           </tr>
 
+          <!-- CORE HIGHLIGHT 3: Saving Lives -->
           <tr>
             <td align="center" valign="top" style="padding: 10px 40px;">
               <table width="100%" bgcolor="#ffffff" cellpadding="0" class="card-bg" cellspacing="0" border="0" role="presentation"
-                style="background-color: #ffffff;">
+                style="background-color: #ffffff; height: 100%; min-height: 100%;">
                 <tr>
+                  <!-- Text Column -->
                   <td class="stack-col-card" width="50%" align="left" valign="middle" bgcolor="#ffffff"
                     style="width: 50%; padding: 0; background-image: url('images/header_bg_pattern.jpg'); background-size: cover; background-position: left center; background-repeat: no-repeat; vertical-align: middle;">
-                    <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width: 100%;">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation"
+                      style="width: 100%; height: 100%;">
                       <tr>
                         <td width="10" style="width: 10px; font-size: 1px; line-height: 1px;">&nbsp;</td>
-                        <td bgcolor="#ffffff" align="left" class="card-bg" valign="middle" style="background-color: #ffffff; padding: 5px 15px;">
+                        <td bgcolor="#ffffff" align="left" class="card-bg" valign="middle"
+                          style="background-color: #ffffff; padding: 5px 15px;">
                           <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
                             <tr>
-                              <td align="left" valign="top" style="padding-bottom: 8px;">
-                                <table cellpadding="0" cellspacing="0" border="0" role="presentation" class="badge-container">
+                              <td align="left" valign="top" style="padding-bottom: 5px;">
+                                <!-- Pill Badge -->
+                                <table cellpadding="0" cellspacing="0" border="0" role="presentation">
                                   <tr>
-                                    <td class="badge-pill-full" align="center" valign="middle" style="border: 1.5px solid #00081c; padding: 2px 14px; border-radius: 50px; font-family: 'Montserrat', Arial, sans-serif; font-size: 10px; font-weight: bold; letter-spacing: 0.5px; color: #00081c; text-transform: uppercase; white-space: nowrap; line-height: 12px;">
-                                      SAFER ROADS
+                                    <td align="left" valign="top">
+                                      <span class="badge-pill"
+                                        style="border: 1.5px solid #00081c; border-radius: 50px; -webkit-border-radius: 50px; -moz-border-radius: 50px; padding: 2px 10px; font-family: 'Montserrat', Arial, sans-serif; font-size: 10px; font-weight: bold; color: #00081c; letter-spacing: 0.5px; text-transform: uppercase; display: inline-block; line-height: 12px; mso-line-height-rule: exactly;">
+                                        SAFER ROADS
+                                      </span>
                                     </td>
-                                    </tr>
+                                  </tr>
                                 </table>
                               </td>
                             </tr>
                             <tr>
                               <td align="left" valign="top" style="padding-bottom: 12px;">
-                                <h3 style="margin: 0 0 10px 0; font-family: 'Montserrat', Arial, sans-serif; font-size: 16px; font-weight: 900; color: #00081c; line-height: 22px;">Saving lives</h3>
+                                <h3
+                                  style="margin: 0 0 10px 0; font-family: 'Montserrat', Arial, sans-serif; font-size: 16px; font-weight: 900; color: #00081c; line-height: 22px;">Saving lives</h3>
                               </td>
                             </tr>
                             <tr>
                               <td align="left" valign="top" style="padding-bottom: 0px;">
-                                <p style="margin: 0; font-family: 'Roboto', Arial, sans-serif; font-size: 14px; line-height: 20px; color: #00081c; font-weight: 300;"> On average, five people a day are killed on our roads and 82 are seriously injured. We’ve looked at 9 ways to reduce this – including reintroducing road safety targets, maintaining driver training and increasing road traffic officers – because road death needs to be higher on the political agenda.
+                                <p
+                                  style="margin: 0; font-family: 'Roboto', Arial, sans-serif; font-size: 14px; line-height: 20px; color: #00081c; font-weight: 300;"> On average, five people a day are killed on our roads and 82 are seriously injured. We’ve looked at 9 ways to reduce this – including reintroducing road safety targets, maintaining driver training and increasing road traffic officers – because road death needs to be higher on the political agenda.
                                 </p>
                               </td>
-                            </tr>
                           </table>
                         </td>
                       </tr>
                     </table>
                   </td>
-                  <td class="stack-col-card" width="50%" align="center" valign="middle" style="padding: 0;">
-                    <img src="images/safe_roads_saving_lives.jpg" width="285" height="158"
-                      style="width: 100%; max-width: 285px; height: auto; display: block; border: 0;"
+                  <!-- Image Column with 100% height fix -->
+                  <td class="stack-col-card" width="50%" align="center" valign="middle"
+                    style="padding: 0; height: 100%;">
+                    <img src="images/safe_roads_saving_lives.jpg" width="100%" height="100%"
+                      style="width: 100%; height: 100% !important; min-height: 100%; object-fit: cover; display: block; border: 0;"
                       alt="Saving lives">
                   </td>
                 </tr>
@@ -834,8 +915,9 @@
             </td>
           </tr>
 
+          <!-- READ FULL MANIFESTO & DOWNLOAD CTA -->
           <tr>
-            <td class="pad-lr content-bg" align="center" valign="top"
+            <td class="pad-lr content-bg" align="center" valign="top" class="card-bg"
               style="padding: 30px 40px 0px 40px; background-color: #ffffff;">
               <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
                 <tr>
@@ -847,6 +929,7 @@
                 </tr>
                 <tr>
                   <td align="center" valign="top">
+                    <!-- Bulletproof CTA Button -->
                     <table cellpadding="0" cellspacing="0" border="0" role="presentation" class="align-center-mobile">
                       <tr>
                         <td class="btn-yellow" align="center" valign="middle" bgcolor="#ffd300"
@@ -863,46 +946,59 @@
             </td>
           </tr>
 
+          <!-- REFER A FRIEND SECTION -->
           <tr>
             <td align="center" valign="top" style="padding: 40px;">
               <table width="100%" bgcolor="#ffffff" cellpadding="0" class="card-bg" cellspacing="0" border="0" role="presentation"
-                style="background-color: #ffffff;">
+                style="background-color: #ffffff; height: 100%; min-height: 100%;">
                 <tr>
-                  <td class="stack-col-card" width="50%" align="center" valign="middle" style="padding: 0;">
-                    <img src="images/refer_friend.jpg" width="285" height="158"
-                      style="width: 100%; max-width: 285px; height: auto; display: block; border: 0;"
+                  <!-- Image Column with 100% height fix -->
+                  <td class="stack-col-card" width="50%" align="center" valign="middle"
+                    style="padding: 0; height: 100%;">
+                    <img src="images/refer_friend.jpg" width="100%" height="100%"
+                      style="width: 100%; height: 100% !important; min-height: 100%; object-fit: cover; display: block; border: 0;"
                       alt="Refer a friend">
                   </td>
+                  <!-- Text Column -->
                   <td class="stack-col-card" width="50%" align="left" valign="middle" bgcolor="#ffffff"
                     style="width: 50%; padding: 0; background-image: url('images/header_bg_pattern.jpg'); background-size: cover; background-position: left center; background-repeat: no-repeat; vertical-align: middle;">
-                    <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width: 100%;">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation"
+                      style="width: 100%; height: 100%;">
                       <tr>
-                        <td bgcolor="#ffffff" align="left" class="card-bg" valign="middle" style="background-color: #ffffff; padding: 5px 15px;">
+                        <td bgcolor="#ffffff" align="left" class="card-bg" valign="middle"
+                          style="background-color: #ffffff; padding: 5px 15px;">
                           <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
                             <tr>
-                              <td align="left" valign="top" style="padding-bottom: 8px;">
-                                <table cellpadding="0" cellspacing="0" border="0" role="presentation" class="badge-container">
+                              <td align="left" valign="top" style="padding-bottom: 0px;">
+                                <!-- Pill Badge -->
+                                <table cellpadding="0" cellspacing="0" border="0" role="presentation">
                                   <tr>
-                                    <td class="badge-pill-full" align="center" valign="middle" style="border: 1.5px solid #00081c; padding: 2px 14px; border-radius: 50px; font-family: 'Montserrat', Arial, sans-serif; font-size: 10px; font-weight: bold; letter-spacing: 0.5px; color: #00081c; text-transform: uppercase; white-space: nowrap; line-height: 12px;">
-                                      INVITE A FRIEND
+                                    <td align="left" valign="top">
+                                      <span class="badge-pill"
+                                        style="border: 1.5px solid #00081c; border-radius: 50px; -webkit-border-radius: 50px; -moz-border-radius: 50px; padding: 2px 10px; font-family: 'Montserrat', Arial, sans-serif; font-size: 10px; font-weight: bold; color: #00081c; letter-spacing: 0.5px; text-transform: uppercase; display: inline-block; line-height: 12px; mso-line-height-rule: exactly;">
+                                        INVITE A FRIEND
+                                      </span>
                                     </td>
-                                    </tr>
+                                  </tr>
                                 </table>
                               </td>
                             </tr>
                             <tr>
                               <td align="left" valign="top" style="padding-bottom: 12px;">
-                                <h3 style="margin: 0 0 10px 0; font-family: 'Montserrat', Arial, sans-serif; font-size: 16px; font-weight: 900; color: #00081c; line-height: 22px;"> £30 for you, £30 for your friends. </h3>
+                                <h3
+                                  style="margin: 0 0 10px 0; font-family: 'Montserrat', Arial, sans-serif; font-size: 16px; font-weight: 900; color: #00081c; line-height: 22px;"> £30 for you, £30 for your friends. </h3>
                               </td>
                             </tr>
                             <tr>
                               <td align="left" valign="top" style="padding-bottom: 18px;">
-                                <p style="margin: 0; font-family: 'Roboto', Arial, sans-serif; font-size: 14px; line-height: 20px; color: #00081c; font-weight: 300;"> With a larger member base, we could have a bigger influence on government decisions. Invite your friends to take out breakdown cover with us and when they join, you’ll both get a £30 M&S or Amazon.co.uk gift card<sup>1</sup>. Offer ends 23 May 2024.
+                                <p
+                                  style="margin: 0; font-family: 'Roboto', Arial, sans-serif; font-size: 14px; line-height: 20px; color: #00081c; font-weight: 300;"> With a larger member base, we could have a bigger influence on government decisions. Invite your friends to take out breakdown cover with us and when they join, you’ll both get a £30 M&S or Amazon.co.uk gift card<sup>1</sup>. Offer ends 23 May 2024.
                                 </p>
                               </td>
                             </tr>
                             <tr>
                               <td align="left" valign="top">
+                                <!-- CTA Button -->
                                 <table cellpadding="0" cellspacing="0" border="0" role="presentation"
                                   class="align-center-mobile">
                                   <tr>
@@ -927,11 +1023,13 @@
             </td>
           </tr>
 
+          <!-- SMART BENEFITS SECTION -->
           <tr>
             <td class="pad-lr yellow-bg" align="center" valign="top" bgcolor="#ffd300"
               style="padding: 15px 40px 20px 40px; background-color: #ffd300; ">
               <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
 
+                <!-- Section Header -->
                 <tr>
                   <td align="left" valign="top" style="padding-bottom: 25px;">
                     <h2
@@ -941,27 +1039,34 @@
                   </td>
                 </tr>
 
+                <!-- Row 1: Thorpe Park -->
                 <tr>
                   <td align="center" valign="top" style="padding-bottom: 20px;">
                     <table width="100%" bgcolor="#ffffff" cellpadding="0" class="card-bg" cellspacing="0" border="0" role="presentation"
-                      style="background-color: #ffffff;">
+                      style="background-color: #ffffff; height: 100%; min-height: 100%;">
                       <tr>
-                        <td class="stack-col-card" width="50%" align="left" valign="middle" bgcolor="#ffffff"
+                        <!-- Text Column -->
+                        <td class="stack-col-card" width="50%" dir="ltr" align="left" valign="middle" bgcolor="#ffffff"
                           style="width: 50%; padding: 0; background-image: url('images/header_bg_pattern.jpg'); background-size: cover; background-position: left center; background-repeat: no-repeat; vertical-align: middle;">
-                          <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width: 100%;">
+                          <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation"
+                            style="width: 100%; height: 100%;">
                             <tr>
                               <td width="10" style="width: 10px; font-size: 1px; line-height: 1px;">&nbsp;</td>
                               <td bgcolor="#ffffff" class="card-bg" align="left" valign="middle"
                                 style="background-color: #ffffff; padding: 20px 15px;">
                                 <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
                                   <tr>
-                                    <td align="left" valign="top" style="padding-bottom: 8px;">
-                                      <table cellpadding="0" cellspacing="0" border="0" role="presentation" class="badge-container">
+                                    <td align="left" valign="top" style="padding-bottom: 12px;">
+                                      <!-- Pill Badge -->
+                                      <table cellpadding="0" cellspacing="0" border="0" role="presentation">
                                         <tr>
-                                          <td class="badge-pill-full" align="center" valign="middle" style="border: 1.5px solid #00081c; padding: 2px 14px; border-radius: 50px; font-family: 'Montserrat', Arial, sans-serif; font-size: 10px; font-weight: bold; letter-spacing: 0.5px; color: #00081c; text-transform: uppercase; white-space: nowrap; line-height: 12px;">
-                                            SPECIAL OFFER
+                                          <td align="left" valign="top">
+                                            <span class="badge-pill"
+                                              style="border: 1.5px solid #00081c; border-radius: 50px; -webkit-border-radius: 50px; -moz-border-radius: 50px; padding: 2px 10px; font-family: 'Montserrat', Arial, sans-serif; font-size: 10px; font-weight: bold; color: #00081c; letter-spacing: 0.5px; text-transform: uppercase; display: inline-block; line-height: 12px; mso-line-height-rule: exactly;">
+                                              SPECIAL OFFER
+                                            </span>
                                           </td>
-                                          </tr>
+                                        </tr>
                                       </table>
                                     </td>
                                   </tr>
@@ -985,6 +1090,7 @@
                                   </tr>
                                   <tr>
                                     <td align="left" valign="top">
+                                      <!-- CTA Button -->
                                       <table cellpadding="0" cellspacing="0" border="0" role="presentation"
                                         class="align-center-mobile">
                                         <tr>
@@ -1003,9 +1109,11 @@
                             </tr>
                           </table>
                         </td>
-                        <td class="stack-col-card" width="50%" align="center" valign="middle" style="padding: 0;">
-                          <img src="images/thorpe_park.jpg" width="285" height="158"
-                            style="width: 100%; max-width: 285px; height: auto; display: block; border: 0;"
+                        <!-- Image Column with 100% height fix -->
+                        <td class="stack-col-card" width="50%" align="center" valign="middle"
+                          style="padding: 0; height: 100%;">
+                          <img src="images/thorpe_park.jpg" width="100%" height="100%"
+                            style="width: 100%; height: 100% !important; min-height: 100%; object-fit: cover; display: block; border: 0;"
                             alt="Thorpe Park rollercoaster">
                         </td>
                       </tr>
@@ -1013,32 +1121,41 @@
                   </td>
                 </tr>
 
+                <!-- Row 2: Airport Transfers -->
                 <tr>
                   <td align="center" valign="top" style="padding-bottom: 25px;">
                     <table width="100%" bgcolor="#ffffff" class="card-bg" cellpadding="0" cellspacing="0" border="0" role="presentation"
-                      style="background-color: #ffffff;">
+                      style="background-color: #ffffff; height: 100%; min-height: 100%;">
                       <tr>
-                        <td class="stack-col-card" width="50%" align="center" valign="middle" style="padding: 0;">
-                          <img src="images/airport_transfers.jpg" width="285" height="158"
-                            style="width: 100%; max-width: 285px; height: auto; display: block; border: 0;"
+                        <!-- Image Column with 100% height fix -->
+                        <td class="stack-col-card" width="50%" align="center" valign="middle"
+                          style="padding: 0; height: 100%;">
+                          <img src="images/airport_transfers.jpg" width="100%" height="100%"
+                            style="width: 100%; height: 100% !important; min-height: 100%; object-fit: cover; display: block; border: 0;"
                             alt="Airport transfers">
                         </td>
-                        <td class="stack-col-card" width="50%" align="left" valign="middle" bgcolor="#ffffff"
+                        <!-- Text Column -->
+                        <td class="stack-col-card" width="50%" dir="rtl" align="left" valign="middle" bgcolor="#ffffff"
                           style="width: 50%; padding: 0; vertical-align: middle;">
-                          <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width: 100%;">
+                          <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation"
+                            style="width: 100%; height: 100%;">
                             <tr>
                               <td width="10" style="width: 10px; font-size: 1px; line-height: 1px;">&nbsp;</td>
                               <td bgcolor="#ffffff" class="card-bg" align="left" valign="middle"
                                 style="background-color: #ffffff; padding: 20px 15px;">
                                 <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
                                   <tr>
-                                    <td align="left" valign="top" style="padding-bottom: 8px;">
-                                      <table cellpadding="0" cellspacing="0" border="0" role="presentation" class="badge-container">
+                                    <td align="left" valign="top" style="padding-bottom: 12px;">
+                                      <!-- Pill Badge -->
+                                      <table cellpadding="0" cellspacing="0" border="0" role="presentation">
                                         <tr>
-                                          <td class="badge-pill-full" align="center" valign="middle" style="border: 1.5px solid #00081c; padding: 2px 14px; border-radius: 50px; font-family: 'Montserrat', Arial, sans-serif; font-size: 10px; font-weight: bold; letter-spacing: 0.5px; color: #00081c; text-transform: uppercase; white-space: nowrap; line-height: 12px;">
-                                            SPECIAL OFFER
+                                          <td align="left" valign="top">
+                                            <span class="badge-pill"
+                                              style="border: 1.5px solid #00081c; border-radius: 50px; -webkit-border-radius: 50px; -moz-border-radius: 50px; padding: 2px 10px; font-family: 'Montserrat', Arial, sans-serif; font-size: 10px; font-weight: bold; color: #00081c; letter-spacing: 0.5px; text-transform: uppercase; display: inline-block; line-height: 12px; mso-line-height-rule: exactly;">
+                                              SPECIAL OFFER
+                                            </span>
                                           </td>
-                                          </tr>
+                                        </tr>
                                       </table>
                                     </td>
                                   </tr>
@@ -1063,6 +1180,7 @@
                                   </tr>
                                   <tr>
                                     <td align="left" valign="top">
+                                      <!-- CTA Button -->
                                       <table cellpadding="0" cellspacing="0" border="0" role="presentation"
                                         class="align-center-mobile">
                                         <tr>
@@ -1086,6 +1204,7 @@
                   </td>
                 </tr>
 
+                <!-- All Smart Benefits Button -->
                 <tr>
                   <td align="center" valign="top">
                     <table cellpadding="0" cellspacing="0" border="0" role="presentation">
@@ -1105,32 +1224,34 @@
             </td>
           </tr>
 
+          <!-- DOUBLE CARD MODULE (FUEL & EV REPORTS) -->
           <tr>
-            <td class="pad-lr pad-tb content-bg" align="center"  valign="top" style="padding: 20px 40px; background-color: #ffffff;">
+            <td class="pad-lr pad-tb content-bg" align="center" valign="top" style="padding: 20px 40px; background-color: #ffffff;">
               <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
                 <tr>
+                  <!-- CARD 1: Fuel Price Report -->
                   <td class="stack-col-card" width="50%" align="center" valign="top" style="padding-right: 10px;">
                     <table width="100%" bgcolor="#ffd300" cellpadding="0" cellspacing="0" border="0" role="presentation"
                       style="background-color: #ffd300;">
                       <tr>
                         <td class="inner-pad yellow-bg" align="left" valign="top" style="padding: 25px 20px;">
+                          <!-- Badge -->
                           <table cellpadding="0" cellspacing="0" border="0" role="presentation"
                             style="margin-bottom: 12px;">
                             <tr>
                               <td align="left" valign="top">
-                                <table cellpadding="0" cellspacing="0" border="0" role="presentation" class="badge-container">
-                                  <tr>
-                                    <td class="badge-pill-full" align="center" valign="middle" style="border: 1.5px solid #00081c; padding: 2px 14px; border-radius: 50px; font-family: 'Montserrat', Arial, sans-serif; font-size: 10px; font-weight: bold; letter-spacing: 0.5px; color: #00081c; text-transform: uppercase; white-space: nowrap; line-height: 12px;">
-                                      NEWS
-                                    </td>
-                                    </tr>
-                                </table>
+                                <span class="badge-pill"
+                                  style="border: 1.5px solid #00081c; border-radius: 50px; -webkit-border-radius: 50px; -moz-border-radius: 50px; padding: 2px 15px; font-family: 'Montserrat', Arial, sans-serif; font-size: 10px; font-weight: bold; color: #00081c; letter-spacing: 0.5px; text-transform: uppercase; display: inline-block; line-height: 12px; mso-line-height-rule: exactly;">
+                                  NEWS
+                                </span>
                               </td>
                             </tr>
-                            <h4
-                              style="margin: 0 0 20px 0; font-family: 'Montserrat', Arial, sans-serif; font-size: 16px; font-weight: 900; color: #00081c; line-height: 20px; min-height: 40px;">
-                              Read our latest fuel price report
-                            </h4>
+                          </table>
+                          <h4
+                            style="margin: 0 0 20px 0; font-family: 'Montserrat', Arial, sans-serif; font-size: 16px; font-weight: 900; color: #00081c; line-height: 20px; min-height: 40px;">
+                            Read our latest fuel price report
+                          </h4>
+                          <!-- Button -->
                           <table cellpadding="0" cellspacing="0" border="0" role="presentation">
                             <tr>
                               <td class="btn-black" align="center" valign="middle" bgcolor="#00081c"
@@ -1146,22 +1267,21 @@
                     </table>
                   </td>
 
+                  <!-- CARD 2: EV Recharge Report -->
                   <td class="stack-col-card" width="50%" align="center" valign="top" style="padding-left: 10px;">
                     <table width="100%" bgcolor="#ffd300" cellpadding="0" cellspacing="0" border="0" role="presentation"
                       style="background-color: #ffd300;">
                       <tr>
                         <td class="inner-pad yellow-bg" align="left" valign="top" style="padding: 25px 20px;">
+                          <!-- Badge -->
                           <table cellpadding="0" cellspacing="0" border="0" role="presentation"
                             style="margin-bottom: 12px;">
                             <tr>
                               <td align="left" valign="top">
-                                <table cellpadding="0" cellspacing="0" border="0" role="presentation" class="badge-container">
-                                  <tr>
-                                    <td class="badge-pill-full" align="center" valign="middle" style="border: 1.5px solid #00081c; padding: 2px 14px; border-radius: 50px; font-family: 'Montserrat', Arial, sans-serif; font-size: 10px; font-weight: bold; letter-spacing: 0.5px; color: #00081c; text-transform: uppercase; white-space: nowrap; line-height: 12px;">
-                                      NEWS
-                                    </td>
-                                    </tr>
-                                </table>
+                                <span class="badge-pill"
+                                  style="border: 1.5px solid #00081c; border-radius: 50px; -webkit-border-radius: 50px; -moz-border-radius: 50px; padding: 2px 15px; font-family: 'Montserrat', Arial, sans-serif; font-size: 10px; font-weight: bold; color: #00081c; letter-spacing: 0.5px; text-transform: uppercase; display: inline-block; line-height: 12px; mso-line-height-rule: exactly;">
+                                  NEWS
+                                </span>
                               </td>
                             </tr>
                           </table>
@@ -1169,6 +1289,7 @@
                             style="margin: 0 0 20px 0; font-family: 'Montserrat', Arial, sans-serif; font-size: 16px; font-weight: 900; color: #00081c; line-height: 20px; min-height: 40px;">
                             Read our latest EV recharge report
                           </h4>
+                          <!-- Button -->
                           <table cellpadding="0" cellspacing="0" border="0" role="presentation">
                             <tr>
                               <td class="btn-black" align="center" valign="middle" bgcolor="#00081c"
@@ -1188,6 +1309,7 @@
             </td>
           </tr>
 
+          <!-- FOOTER LINKS ROW -->
           <tr>
             <td class="pad-lr content-bg" align="center" valign="top"
               style="padding: 10px 40px 25px 40px; background-color: #ffffff;">
@@ -1218,21 +1340,25 @@
             </td>
           </tr>
 
+          <!-- FOOTER YELLOW BRAND BANNER -->
           <tr>
             <td class="pad-lr yellow-bg" align="center" valign="middle" bgcolor="#ffd300"
               style="padding: 25px 40px; background-color: #ffd300;">
               <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
                 <tr>
+                  <!-- Left: AA Always Ahead Logo -->
                   <td class="stack-col" align="left" valign="middle" style="width: 30%;">
                     <img class="align-center-mobile" src="images/aa_always_ahead.png"
                       style="width: auto; height: auto; display: inline-block; border: 0; vertical-align: middle;" alt="AA Always Ahead">
                   </td>
 
+                  <!-- Center: Trustpilot rating -->
                   <td class="stack-col mob-gap" align="center" valign="middle" style="width: 30%;">
                     <img class="align-center-mobile" src="images/trustpilot_rating.png" width="120" height="60"
                       style="width: 120px; height: auto; display: inline-block; border: 0; vertical-align: middle;" alt="Trustpilot Rated Excellent">
                   </td>
 
+                  <!-- Right: Defaqto Awards (Which? Badges) -->
                   <td class="stack-col mob-gap" align="right" valign="middle" style="width: 30%;">
                     <img class="align-center-mobile" src="images/defaqto_awards.png" width="180" height="143"
                       style="width: 180px; height: auto; display: inline-block; border: 0; vertical-align: middle;" alt="Which? Recommended Provider">
@@ -1242,15 +1368,18 @@
             </td>
           </tr>
 
+          <!-- FOOTER SOCIAL, LEGAL & T&Cs SECTION -->
           <tr>
             <td class="pad-lr footer-bg" align="center" valign="top"
               style="padding: 20px 40px 60px 40px; background-color: #ffffff; border-top: 1px solid #eef2f5;">
               <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
 
+                <!-- Social Media Icons -->
                 <tr>
                   <td align="center" valign="top" style="padding-bottom: 25px;">
                     <table cellpadding="0" cellspacing="0" border="0" role="presentation">
                       <tr>
+                        <!-- Facebook -->
                         <td align="center" valign="top" style="padding: 0 8px;">
                           <a href="#adlink" target="_blank" class="social-circle"
                             style="display: block; width: 44px; height: 44px; background-color: #00081c; border-radius: 50%; text-align: center; line-height: 44px;">
@@ -1259,6 +1388,7 @@
                               alt="Facebook">
                           </a>
                         </td>
+                        <!-- YouTube -->
                         <td align="center" valign="top" style="padding: 0 8px;">
                           <a href="#adlink" target="_blank" class="social-circle"
                             style="display: block; width: 44px; height: 44px; background-color: #00081c; border-radius: 50%; text-align: center; line-height: 44px;">
@@ -1267,6 +1397,7 @@
                               alt="YouTube">
                           </a>
                         </td>
+                        <!-- X (Twitter) -->
                         <td align="center" valign="top" style="padding: 0 8px;">
                           <a href="#adlink" target="_blank" class="social-circle"
                             style="display: block; width: 44px; height: 44px; background-color: #00081c; border-radius: 50%; text-align: center; line-height: 44px;">
@@ -1275,6 +1406,7 @@
                               alt="X (Twitter)">
                           </a>
                         </td>
+                        <!-- Instagram -->
                         <td align="center" valign="top" style="padding: 0 8px;">
                           <a href="#adlink" target="_blank" class="social-circle"
                             style="display: block; width: 44px; height: 44px; background-color: #00081c; border-radius: 50%; text-align: center; line-height: 44px;">
@@ -1288,6 +1420,7 @@
                   </td>
                 </tr>
 
+                <!-- Unsubscribe & Contact us links -->
                 <tr>
                   <td align="center" valign="top"
                     style="font-family: 'Roboto', Arial, sans-serif; font-size: 12px; font-weight: 300; padding-bottom: 30px;">
@@ -1298,6 +1431,7 @@
                   </td>
                 </tr>
 
+                <!-- Legal Terms & Conditions -->
                 <tr>
                   <td class="text-muted" align="center" valign="top"
                     style="font-family: 'Roboto', Arial, sans-serif; font-size: 11px; line-height: 16px; color: #64748b; text-align: center;">
@@ -1309,7 +1443,6 @@
                       <sup>3</sup>Ts&Cs at <a href="#adlink"
                         style="color: #64748b;">theaa.com/smart-benefits/travel-offers/holiday-extras</a>
                     </p>
-
 
                     <p style="margin: 0 0 12px 0; font-weight: 300;">
                       #Rated excellent since December 2023.
@@ -1331,7 +1464,9 @@
             </td>
           </tr>
 
-        </table> </td>
+        </table> <!-- End email-container -->
+
+      </td>
     </tr>
   </table>
 </body>
